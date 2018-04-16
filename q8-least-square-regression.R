@@ -16,3 +16,11 @@ y_foreighty <- (80 * xy_model_coeffs[2]) + xy_model_coeffs[1]
 o <- round(y_foreighty, 3)
 writeLines(as.character(o), stdout())
 
+
+# Day 8: Pearson Correlation Coefficient II
+# b = p * (std dev) (y/x)
+y <- -3/4*x - 2
+x <- -3/4*y - 7/3
+# both are negatively correlated
+p <- -3/4
+
